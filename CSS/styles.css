@@ -1,0 +1,33 @@
+/*TAG SELECTORS*/
+
+body{
+    color:  #060047;
+    background-color: #F5E9CF;
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img:hover{
+    transform: scale(1.2); /* Resmi %20 oranında büyütür */
+    transition: transform 0.3s ease-in-out; /* Geçiş efekti ayarlar */
+}
+
+h3{
+    color: #635985;
+}
+
+
+/*CLASS SELECTORS* CLASS ADININ BAŞINA "." KOYMAYI UNUTMA. firstpage değil, .firstPage */
+
+.firstPage{
+    border-style: none; /*her taraf none olsun sadece top dotted olsun*/
+    border-top-style: dotted; /*ya da: border-style: dotted none none*/
+    border-color: gray;
+    border-width: 5px; /*büyüklüğünü belirliyo*/
+    width: 5%; /*genişliğini belirliyo (kaç tane olucağını)*/
+}
+
+.secondPage{
+    border: 1px solid black;
+}
+
